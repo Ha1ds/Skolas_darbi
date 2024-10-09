@@ -1,0 +1,5 @@
+fails=open("las1.txt","r")
+saturs = fails.read()
+fails.close()
+x= saturs.count("a")
+print(x)
