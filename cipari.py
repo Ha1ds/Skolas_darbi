@@ -6,9 +6,9 @@
 #     print(x)
 # f.close()
 
-menesis= ("Janvaris", "Februaris", "Marts", "Aprilis", "Maijs", "Junijs", "Julijs", "Augusts", "Septembris", "Oktobris", "Novembris", "Decembris")
-f= open("cipari.txt", 'w')
+menesis= ("Janvāris", "Februāris", "Marts", "Aprilis", "Maijs", "Jūnijs", "Jūlijs", "Augusts", "Septembris", "Oktobris", "Novembris", "Decembris")
+f= open("cipari.txt", 'w',encoding='utf-8')
 for i in menesis:
     f.write(i + '\n')
-    print(fails1)
+    print(i)
 f.close()

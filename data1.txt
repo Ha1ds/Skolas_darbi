@@ -1,0 +1,3 @@
+Sveiki!
+Python programmēšana ir jautra.
+Šis ir man dators.
